@@ -1,9 +1,10 @@
-import { Octokie } from 'octokit'
+const { Octokit } = require('octokit')
 
-const octokit = new Octokie({ auth: '' })
+const octokit = new Octokit({ auth: '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' })
 
 octokit.rest.issues.create({
-  owner: "octocat",
-  repo: "hello-world",
-  title: "Hello world from " + slug,
+  owner: "AlphaYoung111",
+  repo: "auto-create-issue",
+  title: "Hello world from issue",
+  body: 'test'
 });
