@@ -1,10 +1,9 @@
 name: 'create issue'
 description: 'create issue'
-# inputs:
-#   who-to-greet: # id of input
-#     description: 'Who to greet'
-#     required: true
-#     default: 'World'
+inputs:
+  tokenProp: # id of input
+    description: 'github token'
+    required: true
 
 runs:
   using: 'node12'

@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"ncc build index.js --license licenses.txt"
+    "build": "ncc build index.js --license licenses.txt"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@actions/core": "^1.6.0",
     "octokit": "^1.7.1"
   },
   "devDependencies": {
