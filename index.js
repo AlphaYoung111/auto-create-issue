@@ -2,7 +2,7 @@ const { Octokit } = require('octokit')
 
 const core = require('@actions/core')
 
-const token = core.getInput('tokenProp')
+const token = core.getInput('token-prop')
 
 const octokit = new Octokit({
   auth: token

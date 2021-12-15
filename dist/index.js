@@ -19690,7 +19690,7 @@ const { Octokit } = __nccwpck_require__(7467)
 
 const core = __nccwpck_require__(2186)
 
-const token = core.getInput('tokenProp')
+const token = core.getInput('token-prop')
 
 const octokit = new Octokit({
   auth: token
