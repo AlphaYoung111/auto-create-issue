@@ -1,4 +1,9 @@
-on: [push]
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # 注意这里是UTC时间 北京时间需要减去8个小时
+    - cron:  '1 16 * * *'
+
 
 jobs:
   create_issue_action:
