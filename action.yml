@@ -1,7 +1,7 @@
 name: 'create issue'
 description: 'create issue'
 inputs:
-  tokenProp: # id of input
+  token-prop: # id of input
     description: 'github token'
     required: true
 
