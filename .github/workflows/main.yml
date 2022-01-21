@@ -17,6 +17,6 @@ jobs:
       - name: create issue
         uses: ./ # Uses an action in the root directory
         with: 
-          token-prop: ${{secrets.TOKEN}}
+          token-prop: ${{secrets.AUTO_ISSUE}}
         # who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
